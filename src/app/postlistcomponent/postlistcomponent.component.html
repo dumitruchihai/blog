@@ -1,0 +1,7 @@
+<ul class="list-group">
+    <app-postlistitemcomponent *ngFor = "let articleList of articlesList"
+                                [articleTitre] = "articleList.titre"
+                                [articleContent] = "articleList.content"
+                                [articleLoveIts] = "articleList.loveIts"
+                                [articleCreatedDate] = "articleList.created_at"></app-postlistitemcomponent>
+</ul>
